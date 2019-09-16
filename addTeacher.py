@@ -4,7 +4,7 @@ import requests
 #UI 登录--会员中心--教师列表--添加教师--输入信息--保存
 #接口  登录--保存
 #登录
-lgn_url = 'http://localhost/admin.php?m=mgr/admin.chklogin&ajax=1'
+lgn_url = 'http://127.0.0.1/admin.php?m=mgr/admin.chklogin&ajax=1'
 lgn_data = {
     'username': 'admin',
     'password': 'admin',
