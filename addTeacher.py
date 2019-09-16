@@ -41,6 +41,5 @@ add_teacher_data={
     }
 #保存数据
 result=requests.post(url=add_teacher_url,data=add_teacher_data,headers=headers)
-print(result.text)
 
 
